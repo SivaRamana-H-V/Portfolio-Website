@@ -38,6 +38,19 @@
 	color: var(--primary-clr);
 }
 
+/* Animations */
+canvas {
+	margin-top: -5%;
+	width: 100%;
+	height: 100vh;
+}
+  ::-webkit-scrollbar {
+	width: 0;
+}
+
+main{overflow-x: hidden;
+}
+
 /* remove focus from all elements */
 *:focus:not(:focus-visible) {
 	outline: none;
@@ -86,6 +99,7 @@ a {
 
 img,
 picture {
+	margin: 5%;
 	max-width: 100%;
 	display: block;
 }
@@ -336,8 +350,13 @@ small {
 		HERO SECTION
 *************************/
 .hero {
+	margin-top: -40%;
+	user-select: none;
 	padding: 0 1rem;
+	z-index: 10;
 }
+
+
 
 .hero .container {
 	margin-block-start: var(--section-mt);
@@ -473,11 +492,11 @@ small {
 
 .my-skills ul {
 	padding-block-start: 5rem;
+	color:rgb(0, 0, 0);
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 3.2rem 1rem;
 }
-
 /*******************
 		PROJECTS SECTION
 *************************/
@@ -743,7 +762,7 @@ small {
 	}
 
 	.nav {
-		position: relative;
+		position: absolute;
 		z-index: 1;
 	}
 
@@ -838,7 +857,9 @@ small {
 	.hero img {
 		display: none;
 	}
-
+	.hero {
+		margin-top: -160%;
+	}
 	.my-skills ul {
 		grid-template-columns: repeat(2, 1fr);
 	}

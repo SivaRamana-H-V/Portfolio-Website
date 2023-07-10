@@ -34,18 +34,19 @@
 		<link rel="icon" href="/assets/Siva.ico" />
 		<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
 		<link rel="stylesheet" href="styles.css" />
+		<!-- <link rel="stylesheet" href="an.css"> -->
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 		<!-- boxicons -->
 		<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 		<script src="./script.js" defer></script>
+		<script type="module" src="./an.js"></script>
 		<title>Siva Ramana HV-Developer</title>
 	</head>
 	<body>
-		<!-- only for keyboard users -->
-		<a class="skip-to-content" href="#main-content">Skip to content</a>
-
+		<!-- only for keyboard users -->	 
+		<a class="skip-to-content" href="#main-content">Skip to content</a>				
 		<header class="main-header">
 			<nav class="nav slide-in-top">
 				<div class="container">
@@ -134,349 +135,288 @@
 				</div>
 			</nav>
 		</header>
-
-		<main id="main-content">
-			<!-- hero section -->
-			<section class="hero">
-				<div class="container">
-					<article class="hero-text bounce-in-left">
-						<div>
-							<p class="subtitle">hi there 👋🏽, i'm</p>
-							<h1 class="name">Siva Ramana HV</h1>
-						</div>
-						<div>
-							<p class="intro">
-								A passionate Flutter developer and Graphic Designer with 2 years of professional experience. I specialize in creating visually appealing and user-friendly mobile applications using Flutter, while also leveraging my skills as a Graphic Designer to craft captivating designs.
-							</p>
-
-							<div class="hero-btn-container">
-								<a href="mailto:shivadevi@gmail.com" class="btn hire-btn">
-									Hire Me
-								</a>
-								<!-- <a href="#" download="" class="btn download-link"
-									>Download CV</a
-								> -->
-							</div>
-						</div>
-					</article>
-					<img
-						src="./assets/coding-ground.png"
-						alt="coding desk"
-						class="fade-in code" />
-				</div>
-			</section>
-
-			<!-- about section -->
-			<section class="about-me" id="about">
-				<div class="container" data-aos="fade-up">
-					<img class="profile" src="./assets/Ramesh.jpg" alt="SivaRamana-H-V" >
-					<article>
-						<p class="subtitle">Who is Siva Ramana H V?</p>
-						<h2 class="title">A Bit About Me</h2>
-						<div class="about">
-							<p>
-								🚀 Flutter Developer 💻 | 🎨 Graphic Designer 🎨 | ✨ 2 yrs Exp. ✨ | 
-								🌟 Passionate about creating seamless user experiences. 💫 
-							</p>
-							<p>
-								🎯 Solid understanding of Dart and Flutter. 📱 | 🌈 Adobe Tools Enthusiast 🎨 | 💡Bringing creative ideas to life through captivating designs. ✨ 
-							</p>
-							<p>
-								🌟 Constantly updated with latest Flutter trends and best practices. 📚 | 👨‍💻 Building robust and efficient cross-platform apps. 📲 
-							</p>
-							<p>
-								🎯 Beginner in Flutter, but with a unique Graphic Design perspective. 🎨
-							</p>
-						</div>
-					</article>
-				</div>
-			</section>
-
-			<!-- my skills -->
-			<section class="my-skills" id="skills" data-aos="fade-up">
-				<div class="container">
-					<article>
-						<p class="subtitle">My Skills</p>
-						<h2 class="title">Technologies I Work With</h2>
-
-						<p class="info">
-							I've have taken a number of online courses, currently getting my
-							hands dirty with
-							<strong>Flutter</strong> and here are a few
-							technologies I’ve been working with recently:
+		<canvas id="home"></canvas>					
+		<section class="hero">
+			<div class="container">
+				<article class="hero-text bounce-in-left">
+					<div>
+						<p class="subtitle">hi there 👋🏽, i'm</p>
+						<h1 class="name">Siva Ramana HV</h1>
+					</div>
+					<div>
+						<p class="intro">
+							A passionate Flutter developer and Graphic Designer with 2 years of professional experience. I specialize in creating visually appealing and user-friendly mobile applications using Flutter, while also leveraging my skills as a Graphic Designer to craft captivating designs.
 						</p>
-					</article>
-					<ul>
-						<li>HTML & CSS</li>
-						<li>Adobe Photoshop</li>
-						<li>Adobe Illustratot</li>
-						<li>Adobe InDesign</li>
-						<li>Adobe Premiere Pro</li>
-						<li>Flutter</li>
-						<li>Dart</li>
-						<li>Python</li>
-						<li>Python Frameworkes</li>
-						<li>Git & Github</li>
-						<li>AWS</li>
-						<li>Open CV</li>
-					</ul>
-				</div>
+
+						<div class="hero-btn-container">
+							<a href="mailto:sivaramanahv@gmail.com" class="btn hire-btn">
+								Hire Me
+							</a>						
+						</div>
+					</div>
+				</article>
+				<img
+					src="./assets/coding-ground.png"
+					alt="coding desk"
+					class="fade-in code" />
+			</div>
+		</section>
+
+		<!-- about section -->
+		<section class="about-me" id="about">
+			<div class="container" data-aos="fade-up">
+				<img class="profile" src="./assets/Ramesh.jpg" alt="SivaRamana-H-V" >
+				<article>
+					<p class="subtitle">Who is Siva Ramana H V?</p>
+					<h2 class="title">A Bit About Me</h2>
+					<div class="about">
+						<p>
+							🚀 Flutter Developer 💻 | 🎨 Graphic Designer 🎨 | ✨ 2 yrs Exp. ✨ | 
+							🌟 Passionate about creating seamless user experiences. 💫 
+						</p>
+						<p>
+							🎯 Solid understanding of Dart and Flutter. 📱 | 🌈 Adobe Tools Enthusiast 🎨 | 💡Bringing creative ideas to life through captivating designs. ✨ 
+						</p>
+						<p>
+							🌟 Constantly updated with latest Flutter trends and best practices. 📚 | 👨‍💻 Building robust and efficient cross-platform apps. 📲 
+						</p>
+						<p>
+							🎯 Beginner in Flutter, but with a unique Graphic Design perspective. 🎨
+						</p>
+					</div>
+				</article>
+			</div>
 			</section>
 
-			<!-- projects section -->
-			<section class="projects-section" id="projects">
-				<div class="container">
-					<article data-aos="fade-up">
-						<p class="subtitle">My projects</p>
-						<h2 class="title">Some Things I Built</h2>
-						<p class="info">
-							I like to stay busy and always have a project in the works. Take a
-							look at some of the applications I've have built
-						</p>
-					</article>
-					<section class="projects">
-						<article class="project">
-							<a
-								href="https://github.com/SivaRamana-H-V/Flask-Face-Attendance.git"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="https://miro.medium.com/v2/resize:fit:1024/0*dN1sZFcOGJoFLFpy.png"
-									alt="the Flask-Face-Attendance"
-									title="the/Flask-Face-Attendance"
-							/></a>
-							<div>
-								<h3>01</h3>
-								<h2>Flask-Face-Attendance</h2>
-								<p>
-									🔍 Flask-Face-Attendance: 📸 Facial recognition-based attendance system using Flask framework. 💻 Efficiently track attendance with accuracy, saving time and effort. ⏰💼 Simplify administrative tasks and ensure seamless attendance management. 🌟
-								</p>
-								<ul class="tech-stack">
-									<li>HTML</li>
-									<li>CSS</li>
-									<li>Python Framework</Frame></li>
-									<li>Excel sheet</li>
-									<li>Open-CV</li>
-									<li>Flask</li>
-								</ul>
-								<ul class="project-links">
-									<!-- <li>
-										<a
-											href="https://themovieflix.netlify.app/"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Live Site →</a
-										>
-									</li> -->
-									<li>
-										<a
-											href="https://github.com/SivaRamana-H-V/Flask-Face-Attendance.git"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Github →</a
-										>
-									</li>
-								</ul>
-							</div>
-						</article>
-						<article class="project">
-							<a
-								href="https://www.linkedin.com/posts/sivaramanahv_vectorart-adobeillustrator-creativejourney-activity-7078325735932772352-OK2g?utm_source=share&utm_medium=member_desktop"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/I to V.png"
-									alt="github profile website screenshot"
-									title="github profile"
-							/></a>
-							<div>
-								<h3>02</h3>
-								<h2>Image to Vector</h2>
-								<p>
-									🎨 Image to Vector: 📷🔡 Convert images to scalable vector graphics using Adobe Illustrator. 💯✨ Preserve image quality and scalability, enabling versatile use in various design projects. 🎉💡 Enhance your creative workflow and create stunning visuals effortlessly.
-								</p>
-								<ul class="tech-stack">
-									<li>Adobe Photoshop</li>
-									<li>Adobe Illustrator</li>
-								</ul>
-								<ul class="project-links">
-									<li>
-										<a
-											href="https://www.linkedin.com/posts/sivaramanahv_vectorart-adobeillustrator-creativejourney-activity-7078325735932772352-OK2g?utm_source=share&utm_medium=member_desktop"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Linkedin Post →</a
-										>
-									</li>									
-							</div>
-						</article>
-						<article class="project">
-							<a
-								href="https://www.linkedin.com/posts/sivaramanahv_my-first-experience-on-indesign-activity-7078328190854692864-aOhi?utm_source=share&utm_medium=member_desktop"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/Magazine.jpg"
-									alt="covid map dashboard website screenshot"
-									title="covid map dashboard"
-							/></a>
-							<div>
-								<h3>03</h3>
-								<h2>First Magazine In InDesign</h2>
-								<p>
-									📚 My First Magazine: 🖋️✨ Dive into the world of publishing with Adobe InDesign. 🎉📰 Design and create your very own magazine, showcasing your creativity and storytelling skills. 🌟🎨 Bring your ideas to life and captivate readers with visually stunning layouts.
-								</p>
-								<ul class="tech-stack">
-									<li>Adobe Photoshop</li>
-									<li>Adobe InDesign</li>						
-								</ul>
-								<ul class="project-links">
-									<li>
-										<a
-											href="https://www.linkedin.com/posts/sivaramanahv_my-first-experience-on-indesign-activity-7078328190854692864-aOhi?utm_source=share&utm_medium=member_desktop"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect">
-											Linkedin Post →
-										</a>
-									</li>					
-								</ul>
-							</div>
-						</article>
-						<article class="project">
-							<a
-								href="#"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/Shoes.jpg"
-									alt="ip address tracker website screenshot"
-									title="ip address tracker"
-							/></a>
-							<div>
-								<h3>04</h3>
-								<h2>First Design In Photoshop</h2>
-								<p>
-									🎨 My First Design: ✨🖌️ Embark on a creative journey with Adobe Photoshop. 🌟📸 Explore the world of digital art and design as you create your first masterpiece. 🎉👩‍🎨 Unleash your imagination and bring your ideas to life with powerful editing tools.
-								</p>
-								<ul class="tech-stack">
-									<li>Adobe Photoshop</li>								
-								</ul>
-								<ul class="project-links">																
-									</li>
-								</ul>
-							</div>
-						</article>
-						<article class="project">
-							<a
-								href="https://williamssam.github.io/jokes-web-bot/"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/joke-bot.jpg"
-									alt="ip address tracker website screenshot"
-									title="joke web bot"
-							/></a>
-							<div>
-								<h3>05</h3>
-								<h2>Joke Web Bot</h2>
-								<p>
-									Are you having a boring day? 😔 This web bot searches for
-									jokes on the internet by clicking on 'get a joke button' and
-									reads out the joke to you using the
-									<em>'speechsynthesis api'</em>. You can change the
-									accent/speaker to your choice if the original accent sounds
-									not jovial 😁.
-								</p>
-								<ul class="tech-stack">
-									<li>HTML</li>
-									<li>CSS</li>
-									<li>Javascript</li>
-									<li>speechSynthesis API</li>
-								</ul>
-								<ul class="project-links">
-									<li>
-										<a
-											href="https://williamssam.github.io/jokes-web-bot/"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Live Site →</a
-										>
-									</li>
-									<li>
-										<a
-											href="https://github.com/SivaRamana-H-V/jokes-web-bot.git"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Github →</a
-										>
-									</li>
-								</ul>
-							</div>
-						</article>
-					</section>
-					<!-- others 
-					<section class="other-noteworthy-project" data-aos="fade-up">
-						<h3>Other Noteworthy Projects</h3>
-						<ul class="other-projects">
-							<li>
-								<a
-									href="https://rest-countries-with-sveltekit.vercel.app/"
-									target="_blank"
-									rel="noreferrer"
-									><img
-										src="./assets/rest-countries.png"
-										alt="rest countries page screenshot" />
-									<div>
-										<h4>Rest Countries App</h4>
-										<p>
-											Displays all the countries in the world, their population,
-											region and capital. Search for any country and filter
-											based on region with dark mode
-										</p>
-										<ul>
-											<li>Svelte/SvelteKit</li>
-											<li>Tailwind CSS</li>
-										</ul>
-									</div></a
-								>
-							</li>
-							<li>
-								<a
-									href="https://williamssam.github.io/wordsearch/"
-									target="_blank"
-									rel="noreferrer"
-									><img
-										src="./assets/wordsearch.png"
-										alt="wordsearch page screenshot" />
-									<div>
-										<h4>WordSearch</h4>
-										<p>
-											Search for the meaning of english words and get their
-											synonyms with an added advantage of listening to the
-											pronounciation of the word.
-										</p>
-										<ul>
-											<li>React js</li>
-										</ul>
-									</div></a
-								>
-							</li>
-						</ul>
-					</section>
-				</div>
-			</section>-->
+		<!-- my skills -->
+		<section class="s" id="skills"></section>
+		<!-- <section style="margin-block-start: var(--section-mt);padding: 4rem 1rem;position: relative;min-height: 100vh;background: #000000;display: flex;justify-content: center;align-items: center;"> -->
+		<section class="my-skills" data-aos="fade-up" style="margin-block-start: var(--section-mt);padding: 4rem 1rem;position: relative;min-height: 100vh;background: #000000;display: flex;justify-content: center;align-items: center;">
+			<div class="container">
+				<article >
+					<p class="subtitle">My Skills</p>
+					<h2 class="title">Technologies I Work With</h2>
 
+					<p class="info">
+						I've have taken a number of online courses, currently getting my
+						hands dirty with
+						<strong>Flutter</strong> and here are a few
+						technologies I’ve been working with recently:
+					</p>
+
+				<ul style=" color:white; padding-block-start: 5rem; display: grid;grid-template-columns: repeat(4, 1fr);gap: 3.2rem 20rem;">
+					<li>HTML & CSS</li>
+					<li>Adobe Photoshop</li>
+					<li>Adobe Illustrator</li>
+					<li>Adobe InDesign</li>
+					<li>Adobe Premiere Pro</li>
+					<li>Flutter</li>
+					<li>Dart</li>
+					<li>Python</li>
+					<li>Python Frameworkes</li>
+					<li>Git & Github</li>
+					<li>AWS</li>
+					<li>Open CV</li>
+				</ul>	
+				<div class="light" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;pointer-events: none;background: radial-gradient(circle at var(--x)var(--y), transparent 10%, rgba(0,0,0,0.95)20%);"></div></div>				
+				</article>
+			</div>
+		</section>
+		<div style="position: relative;width: 100%;height: 100%;pointer-events: none;background: radial-gradient(circle at var(--x)var(--y), transparent 10%, rgba(0, 0, 0, 0.95)20%);"></div>
+
+		<!-- projects section -->
+		<section class="projects-section" id="projects">
+			<div class="container">
+				<article data-aos="fade-up">
+					<p class="subtitle">My projects</p>
+					<h2 class="title">Some Things I Built</h2>
+					<p class="info">
+						I like to stay busy and always have a project in the works. Take a
+						look at some of the applications I've have built
+					</p>
+				</article>
+				<section class="projects">
+					<article class="project">
+						<a
+							href="https://github.com/SivaRamana-H-V/Flask-Face-Attendance.git"
+							target="_blank"
+							rel="noreferrer"
+							class="project-img"
+							><img
+								src="https://miro.medium.com/v2/resize:fit:1024/0*dN1sZFcOGJoFLFpy.png"
+								alt="the Flask-Face-Attendance"
+								title="the/Flask-Face-Attendance"
+						/></a>
+						<div>
+							<h3>01</h3>
+							<h2>Flask-Face-Attendance</h2>
+							<p>
+								🔍 Flask-Face-Attendance: 📸 Facial recognition-based attendance system using Flask framework. 💻 Efficiently track attendance with accuracy, saving time and effort. ⏰💼 Simplify administrative tasks and ensure seamless attendance management. 🌟
+							</p>
+							<ul class="tech-stack">
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Python Framework</Frame></li>
+								<li>Excel sheet</li>
+								<li>Open-CV</li>
+								<li>Flask</li>
+							</ul>
+							<ul class="project-links">							
+								<li>
+									<a
+										href="https://github.com/SivaRamana-H-V/Flask-Face-Attendance.git"
+										target="_blank"
+										rel="noreferrer"
+										class="hover-effect"
+										>Github →</a
+									>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="project">
+						<a
+							href="https://www.linkedin.com/posts/sivaramanahv_vectorart-adobeillustrator-creativejourney-activity-7078325735932772352-OK2g?utm_source=share&utm_medium=member_desktop"
+							target="_blank"
+							rel="noreferrer"
+							class="project-img"
+							><img
+								src="./assets/I to V.png"
+								alt="Image to Vector"
+								title="Image to Vector"
+						/></a>
+						<div>
+							<h3>02</h3>
+							<h2>Image to Vector</h2>
+							<p>
+								🎨 Image to Vector: 📷🔡 Convert images to scalable vector graphics using Adobe Illustrator. 💯✨ Preserve image quality and scalability, enabling versatile use in various design projects. 🎉💡 Enhance your creative workflow and create stunning visuals effortlessly.
+							</p>
+							<ul class="tech-stack">
+								<li>Adobe Photoshop</li>
+								<li>Adobe Illustrator</li>
+							</ul>
+							<ul class="project-links">
+								<li>
+									<a
+										href="https://www.linkedin.com/posts/sivaramanahv_vectorart-adobeillustrator-creativejourney-activity-7078325735932772352-OK2g?utm_source=share&utm_medium=member_desktop"
+										target="_blank"
+										rel="noreferrer"
+										class="hover-effect"
+										>Linkedin Post →</a
+									>
+								</li>									
+						</div>
+					</article>
+					<article class="project">
+						<a
+							href="https://www.linkedin.com/posts/sivaramanahv_my-first-experience-on-indesign-activity-7078328190854692864-aOhi?utm_source=share&utm_medium=member_desktop"
+							target="_blank"
+							rel="noreferrer"
+							class="project-img"
+							><img
+								src="./assets/Magazine.jpg"
+								alt="Magazine"
+								title="My First Magazine"
+						/></a>
+						<div>
+							<h3>03</h3>
+							<h2>First Magazine In InDesign</h2>
+							<p>
+								📚 My First Magazine: 🖋️✨ Dive into the world of publishing with Adobe InDesign. 🎉📰 Design and create your very own magazine, showcasing your creativity and storytelling skills. 🌟🎨 Bring your ideas to life and captivate readers with visually stunning layouts.
+							</p>
+							<ul class="tech-stack">
+								<li>Adobe Photoshop</li>
+								<li>Adobe InDesign</li>						
+							</ul>
+							<ul class="project-links">
+								<li>
+									<a
+										href="https://www.linkedin.com/posts/sivaramanahv_my-first-experience-on-indesign-activity-7078328190854692864-aOhi?utm_source=share&utm_medium=member_desktop"
+										target="_blank"
+										rel="noreferrer"
+										class="hover-effect">
+										Linkedin Post →
+									</a>
+								</li>					
+							</ul>
+						</div>
+					</article>
+					<article class="project">
+						<a
+							href="#"
+							target="_blank"
+							rel="noreferrer"
+							class="project-img"
+							><img
+								src="./assets/Shoes.jpg"
+								alt="First Design In Photoshop"
+								title="First Design In Photoshop"
+						/></a>
+						<div>
+							<h3>04</h3>
+							<h2>First Design In Photoshop</h2>
+							<p>
+								🎨 My First Design: ✨🖌️ Embark on a creative journey with Adobe Photoshop. 🌟📸 Explore the world of digital art and design as you create your first masterpiece. 🎉👩‍🎨 Unleash your imagination and bring your ideas to life with powerful editing tools.
+							</p>
+							<ul class="tech-stack">
+								<li>Adobe Photoshop</li>								
+							</ul>
+							<ul class="project-links">																
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article class="project">
+						<a
+							href="https://williamssam.github.io/jokes-web-bot/"
+							target="_blank"
+							rel="noreferrer"
+							class="project-img"
+							><img
+								src="./assets/joke-bot.jpg"
+								alt="ip address tracker website screenshot"
+								title="joke web bot"
+						/></a>
+						<div>
+							<h3>05</h3>
+							<h2>Joke Web Bot</h2>
+							<p>
+								Are you having a boring day? 😔 This web bot searches for
+								jokes on the internet by clicking on 'get a joke button' and
+								reads out the joke to you using the
+								<em>'speechsynthesis api'</em>. You can change the
+								accent/speaker to your choice if the original accent sounds
+								not jovial 😁.
+							</p>
+							<ul class="tech-stack">
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Javascript</li>
+								<li>speechSynthesis API</li>
+							</ul>
+							<ul class="project-links">
+								<li>
+									<a
+										href="https://williamssam.github.io/jokes-web-bot/"
+										target="_blank"
+										rel="noreferrer"
+										class="hover-effect"
+										>Live Site →</a
+									>
+								</li>
+								<li>
+									<a
+										href="https://github.com/SivaRamana-H-V/jokes-web-bot.git"
+										target="_blank"
+										rel="noreferrer"
+										class="hover-effect"
+										>Github →</a
+									>
+								</li>
+							</ul>
+						</div>
+					</article>
+				</section>
 			<!-- contact section -->
 			<section class="contact" data-aos="fade-up">
 				<div class="container">
@@ -488,15 +428,12 @@
 					</p>
 
 					<div>
-						<a href="sivaramanahv@gmail.com" class="mail-link hover-effect"
-							>Get in touch →</a
-						>
-						<!-- <small>(or copy) samwill300@gmail.com</small> -->
+						<a href="mailto:sivaramanahv@gmail.com" class="mail-link hover-effect">
+							Get in touch →
+						</a>										
 					</div>
 				</div>
 			</section>
-		</main>
-
 		<footer class="footer" id="contact">
 			<div class="container">
 				<p>&copy; <span id="date"></span> Siva Ramana H V</p>
@@ -539,6 +476,13 @@
 				</div>
 			</div>
 		</footer>
+		<script src="hero-webgl.js"></script>
+		<script>
+			var pos=document.documentElement;
+			pos.addEventListener('mousemove',e=>{
+			pos.style.setProperty('--x',e.clientX+'px')
+			pos.style.setProperty('--y',e.clientY+'px')
+			})
+		</script>
 	</body>
-
 </html>
